@@ -1,0 +1,5 @@
+click>=8.1
+google-genai>=1.0
+# Only the document-conversion extras; [all] would pull youtube/audio
+# transcription packages that lag behind new Python releases.
+markitdown[pdf,docx,pptx,xlsx,xls,outlook]>=0.1.1
